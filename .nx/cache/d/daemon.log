@@ -1,0 +1,112 @@
+[NX Daemon Server] - 2024-04-12T14:29:35.891Z - Started listening on: /var/folders/1q/yg8v0bsj3ng8jhcnfn4t62_c0000gp/T/c20c4f6cba77c5da4372/d.sock
+[NX Daemon Server] - 2024-04-12T14:29:35.903Z - [WATCHER]: Subscribed to changes within: /Users/sandman/WebstormProjects/find-my-hip-hop (native)
+[NX Daemon Server] - 2024-04-12T14:29:35.910Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-12T14:29:35.932Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-12T14:29:35.942Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-12T14:29:35.951Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-12T14:29:35.961Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-12T14:29:35.962Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-12T14:29:35.964Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-12T14:29:37.242Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-12T14:29:37.247Z - Time taken for 'total for creating and serializing project graph' 1290.8197499999999ms
+[NX Daemon Server] - 2024-04-12T14:29:37.257Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-12T14:29:37.257Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1297. Response time: 16.
+[NX Daemon Server] - 2024-04-12T14:29:37.268Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-12T14:29:37.268Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-12T14:29:37.269Z - Time taken for 'total for creating and serializing project graph' 0.41383399999995163ms
+[NX Daemon Server] - 2024-04-12T14:29:37.273Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-12T14:29:37.273Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 5.
+[NX Daemon Server] - 2024-04-12T14:29:37.283Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-04-12T14:29:37.283Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-04-12T14:29:37.283Z - Handled REQUEST_FILE_DATA. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2024-04-12T14:29:37.288Z - [REQUEST]: Responding to the client. handleRequestFileData
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at /Users/sandman/WebstormProjects/find-my-hip-hop/node_modules/.pnpm/nx@18.2.4/node_modules/nx/src/daemon/server/shutdown-utils.js:59:16
+    at new Promise (<anonymous>)
+    at respondToClient (/Users/sandman/WebstormProjects/find-my-hip-hop/node_modules/.pnpm/nx@18.2.4/node_modules/nx/src/daemon/server/shutdown-utils.js:55:12) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+[NX Daemon Server] - 2024-04-12T14:29:37.295Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-04-12T14:29:37.296Z - Socket error
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at /Users/sandman/WebstormProjects/find-my-hip-hop/node_modules/.pnpm/nx@18.2.4/node_modules/nx/src/daemon/server/shutdown-utils.js:59:16
+    at new Promise (<anonymous>)
+    at respondToClient (/Users/sandman/WebstormProjects/find-my-hip-hop/node_modules/.pnpm/nx@18.2.4/node_modules/nx/src/daemon/server/shutdown-utils.js:55:12) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+[NX Daemon Server] - 2024-04-12T14:29:37.296Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 8.
+[NX Daemon Server] - 2024-04-12T14:29:37.296Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-12T14:29:38.321Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-12T14:29:38.321Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-12T14:29:38.321Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-12T14:29:38.322Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-12T14:29:38.323Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-12T14:29:38.324Z - Time taken for 'total for creating and serializing project graph' 0.6720420000001468ms
+[NX Daemon Server] - 2024-04-12T14:29:38.325Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-12T14:29:38.325Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2024-04-12T14:29:38.332Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-04-12T14:29:38.332Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-04-12T14:29:38.332Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-04-12T14:29:38.333Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-12T14:29:52.317Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-12T14:29:52.381Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-12T14:29:52.685Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-12T14:29:52.801Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-12T14:31:01.837Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-12T14:34:23.242Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-12T14:35:07.623Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-12T14:35:07.713Z - [WATCHER]: docker-compose.yml was modified
+[NX Daemon Server] - 2024-04-12T14:35:07.837Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-12T14:35:07.837Z - [REQUEST]: docker-compose.yml
+[NX Daemon Server] - 2024-04-12T14:35:07.838Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-12T14:35:08.185Z - Time taken for 'hash changed files from watcher' 6.76095800002804ms
+[NX Daemon Server] - 2024-04-12T14:35:09.386Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-12T14:35:09.387Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-12T14:35:09.390Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-12T14:35:09.393Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-12T14:35:09.396Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-12T14:35:09.398Z - Time taken for 'total for creating and serializing project graph' 2.903500000014901ms
+[NX Daemon Server] - 2024-04-12T14:35:09.416Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-12T14:35:09.416Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 3. Response time: 20.
+[NX Daemon Server] - 2024-04-12T14:35:09.432Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-04-12T14:35:09.434Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-04-12T14:35:09.435Z - Handled REQUEST_FILE_DATA. Handling time: 2. Response time: 3.
+[NX Daemon Server] - 2024-04-12T14:35:09.440Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-12T14:35:10.005Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-12T15:01:23.461Z - [WATCHER]: docker-compose.yml was modified
+[NX Daemon Server] - 2024-04-12T15:01:23.467Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-12T15:01:23.573Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-12T15:01:23.574Z - [REQUEST]: docker-compose.yml
+[NX Daemon Server] - 2024-04-12T15:01:23.574Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-12T15:01:23.727Z - Time taken for 'hash changed files from watcher' 4.0796250000130385ms
+[NX Daemon Server] - 2024-04-12T15:01:24.813Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-12T15:01:24.814Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-12T15:01:24.815Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-12T15:01:24.816Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-12T15:01:24.817Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-12T15:01:24.819Z - Time taken for 'total for creating and serializing project graph' 0.7017090001609176ms
+[NX Daemon Server] - 2024-04-12T15:01:24.821Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-12T15:01:24.821Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 4.
+[NX Daemon Server] - 2024-04-12T15:01:24.831Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-04-12T15:01:24.832Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-04-12T15:01:24.832Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-04-12T15:01:24.834Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-12T15:01:35.653Z - [WATCHER]: Processing file changes in outputs

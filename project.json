@@ -1,0 +1,13 @@
+{
+  "name": "findMyHipHop",
+  "$schema": "node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "targets": {
+    "dev": {
+      "command": "prisma generate & next dev"
+    },
+    "build": {
+      "command": "prisma generate && prisma db push && next build"
+    }
+  }
+}
